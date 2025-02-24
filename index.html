@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="mainHeading">Users</h1>
+
+      <div class="user-grid" id="userGrid">
+        <!-- User data will be loaded here dynamically -->
+      </div>
+
+      <!-- User Details Modal -->
+      <div id="userModal" class="modal">
+        <div class="modal-box">
+            <span class="close-btn" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    
+
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
