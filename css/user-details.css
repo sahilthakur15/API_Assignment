@@ -1,3 +1,11 @@
+/* Light Background with Soft Gradient */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #fdfbfb, #d3c9c9); /* Soft pastel gradient */
+    /* text-align: center; */
+}
 /* Profile Section */
 .profile {
     display: flex;
@@ -41,6 +49,44 @@ h1, h2 {
 .profile p {
     font-size: 15px;
     opacity: 0.85;
+}
+
+/* Add this CSS to your stylesheet */
+.comment-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.comment-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: #ff4757;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.post-footer i {
+    cursor: pointer;
+    font-size: 18px;
+    color: #ff4757;
+    transition: color 0.3s ease;
+}
+
+.post-footer i:hover {
+    
+    color: #555;
 }
 
 /* Posts Grid Layout */
@@ -236,4 +282,61 @@ h1, h2 {
 
 .error {
     color: red;
+}
+
+/* Delete Icon */
+.delete-icon {
+    color: #ff4d4d;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-icon:hover {
+    color: #d90429;
+    transform: scale(1.2);
+}
+
+/* Edit Icon */
+.edit-icon {
+    color: #ffa502;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.edit-icon:hover {
+    color: #e67e22;
+    transform: scale(1.2);
+}
+
+/* Add Post Button */
+.add-post-btn {
+    display: block;
+    width: fit-content;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 18px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+}
+
+.add-post-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    background: linear-gradient(135deg, #ff4e6a, #ff758c);
+}
+
+/* Centering the button */
+#userPosts {
+    position: relative;
+}
+
+.add-post-btn-container {
+    text-align: center;
+    margin-bottom: 15px;
 }

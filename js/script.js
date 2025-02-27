@@ -30,7 +30,7 @@ function displayUsers(users) {
             window.location.href = `user-details.html?id=${user.id}`;
         });
 
-        // Append the user card to the grid (This was missing)
+        // Append the user card to the grid
         userGrid.appendChild(userCard);
     });
 }
