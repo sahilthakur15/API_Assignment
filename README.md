@@ -8,17 +8,22 @@ The profile page includes:
 - Comments on each post
 - Functionality to add, edit, and delete posts
 
+
 ## 🛠️ Features
-- **User Profiles**: Fetches and displays all users dynamically.
+- **User Profiles**: Fetches and displays all users.
 - **User Details Page**: Shows user information and their posts.
 - **API Integration**: Retrieves users, posts, and comments from an external API.
 - **Add New Post**: Users can add new posts.
 - **Edit & Delete Posts**: Users can modify or remove posts.
 - **Interactive UI**: Well-designed UI with animations and responsive layout.
 
+
 ## 🎨 Tech Stack
-- **Frontend**: HTML, CSS, JavaScript.
+- **HTML**: Structured the web pages.
+- **CSS**: Styled the application for a visually appealing UI.
+- **JavaScript**: Added interactivity, fetched API data, and manipulated the DOM.
 - **API**: JSONPlaceholder API (for users, posts, and comments).
+
 
 ## 🌐 API Endpoints
 The following API endpoints are used in this project:
@@ -41,6 +46,7 @@ All HTTP methods are supported. You can use HTTP or HTTPS for your requests.
 - PUT /posts/1
 - PATCH /posts/1
 - DELETE /posts/1
+
 
 ## ⚙️ Setup Instructions
 # 1️⃣ Clone the Repository.
