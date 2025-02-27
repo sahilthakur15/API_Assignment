@@ -31,8 +31,6 @@ The following API endpoints are used in this project:
 ## 🔹 Resources
 - /posts → 100 posts
 - /comments → 500 comments
-- /albums → 100 albums
-- /photos → 5000 photos
 - /users → 10 users
 
 ## 🔹 Routes
@@ -49,10 +47,10 @@ All HTTP methods are supported. You can use HTTP or HTTPS for your requests.
 
 
 ## ⚙️ Setup Instructions
-# 1️⃣ Clone the Repository.
-# 2️⃣ Navigate to the Project Directory.
-# 3️⃣ Open the Project in a Code Editor.
-# 4️⃣ Run the Project Locally
+- 1️⃣ Clone the Repository.
+- 2️⃣ Navigate to the Project Directory.
+- 3️⃣ Open the Project in a Code Editor.
+- 4️⃣ Run the Project Locally
 ✅ Option 1: Open Directly in Browser
 Simply open index.html in your browser to start the project.
 ✅ Option 2: Use Live Server (Recommended)
