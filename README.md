@@ -51,9 +51,9 @@ All HTTP methods are supported. You can use HTTP or HTTPS for your requests.
 - 2️⃣ Navigate to the Project Directory.
 - 3️⃣ Open the Project in a Code Editor.
 - 4️⃣ Run the Project Locally.
-  -✅ Option 1: Open Directly in Browser
+- ✅ Option 1: Open Directly in Browser
 Simply open index.html in your browser to start the project.
-  -✅ Option 2: Use Live Server (Recommended)
+- ✅ Option 2: Use Live Server (Recommended)
 If you're using VS Code, install the "Live Server" extension and right-click on index.html, then select "Open with Live Server".
 
 
